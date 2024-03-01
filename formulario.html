@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad</title>
+    <link rel="icon" href="img/icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body class="FondoPrincipal">
+    <h1>Breaking Bad - ¡Que comience el juego!</h1>
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" class="datos">
+        <fieldset>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <br>Nombre: <input type="text" name="nombre" id="" placeholder="Tu nombre" label="nombre">
+                Apellidos:<input type="text" name="apellidos" id="" placeholder="Tus apellidos"label="apellidos">
+                <br>Dirección:<input type="text" name="direccion" id="" placeholder="Calle, número, piso"label="direccion">
+                Código Postal: <input type="text"name="CP" id="" placeholder="28006" label="codigopostal">
+                <br>Ciudad:<input type="text" name="ciudad" id="" placeholder="Nombre ciudad"label="ciudad">
+                DNI:<input type="text" name="dni" id="" placeholder="123456789-A" label="dni">
+                <br>Mail: <input type="email" name="mail" id="" placeholder="Ejemplo: XXXX@gmail.com">
+                <br>
+                    
+                    <br>Selecciona tu sexo
+                    <br><input type="radio" name="Check" value="H">Hombre
+                    <br><input type="radio" name="Check" value="M">Mujer
+                    <br>
+                    <br> Insertar fecha de nacimiento: 
+                    <br><input type="date">
+            <br>
+            <br>
+                Elige un Personaje:
+                <select name="personajes" id="">
+                    <option value="1"id="1">Jessie Pinkman</option>
+                    <option value="2"id="2">Walter White</option>
+                    <option value="3"id="3">Saul Goodman</option>
+                    <option value="4"id="4">Gustavo Fring</option>
+                    <option value="4"id="5">Pollos Hermanos</option>
+                    <option value="4"id="6">Otros personajes</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                Escribe tus comentarios: 
+                <br><textarea class="cuadro" name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <input type="submit" value="Enviar"><input type="file" name="Varios" accept=".jpg, .pdf, .jpeg, .docx, .png" multiple>
+            <br><input type="reset" value="Eliminar">
+    </form>
+</body>
+</html>
